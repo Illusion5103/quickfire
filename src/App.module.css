@@ -1,0 +1,315 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 7.5px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  min-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #009985;
+  border-color: #009985;
+}
+
+.card h2 {
+  margin: 0 0 0rem 0;
+  font-size: 1rem;
+  color: black;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  border-radius: 7.5px;
+  color: white;
+  padding: 12.5px 12.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #009985;
+}
+
+.buttonSettings {
+  background-color: black; /* Green */
+  border: none;
+  border-radius: 7.5px;
+  color: white;
+  padding: 10px 12.5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+.buttonSettings:hover {
+  background-color: #009985;
+}
+
+.icons {
+  padding-left: 0.2rem;
+  margin-left: 0.3rem;
+}
+
+.sameLevel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.creditsInfo {
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.creditsInfo:hover {
+  color: #009985;
+}
+
+.input {
+  padding: 10px 10px;
+  margin: 8px 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  border-radius: 7.5px;
+  min-width: 280px;
+}
+
+.input:hover {
+  border-color: #009985;
+}
+
+.text {
+  color: black;
+  font-size: 14px;
+}
+
+.header {
+  text-align: right;
+  margin: 0.5rem;
+}
+
+.infoButton {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.infoButton:hover {
+  color: #009985;
+}
+
+.backButton {
+  margin: 0.5rem;
+  cursor: pointer;
+  color: black;
+}
+
+.backButton:hover {
+  color: #009985;
+}
+
+.pasteIt {
+  margin-left: 0.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+.pasteIt:hover {
+  color: #009985;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responses {
+  cursor: pointer;
+  color: black; 
+}
+
+.responses:hover {
+  border-color: #009985;
+}
+
+.responses:active {
+  color: #009985;
+  border-color: black !important;
+
+}
+
+.textThing {
+  margin-bottom: 1rem;
+}
+
+.infoText {
+  font-weight: normal;
+  padding: 0.5rem;
+}
+
+.infoTextHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0rem;
+}
+
+.infoTextUser {
+  font-weight: normal;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.loadingThing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hourglassCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.75rem;
+}
+
+.element {
+  height: 47.5px;
+  width: 180px;
+  border-radius: 7.5px;
+  margin: 2px 2px;
+  animation-name: stretch;
+  animation-duration: 1s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+0% {
+transform: scale(1.0);
+background-color: #009985;
+}
+50% {
+background-color: #000000;
+}
+100% {
+transform: scale(0.5);
+background-color: #009985;
+}
+}
