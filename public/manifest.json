@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "QuickfireAI",
     "short_name": "QuickfireAI",
-    "version": "0.0.0.2",
+    "version": "0.0.0.4",
     "author": "netdrifter",
     "description": "A copilot for responding. Use AI to respond to messages faster and more efficiently.",
     "action": {
@@ -10,11 +10,7 @@
         "default_title": "QuickfireAI"
     },
     "permissions": [
-        "storage",
-        "<all_urls>"
-    ],
-    "host_permissions": [
-        "<all_urls>"
+        "storage"
     ],
     "background": {
         "service_worker": "background.js",
@@ -24,15 +20,5 @@
         "16": "logo192.png",
         "48": "logo192.png",
         "128": "logo192.png"
-    },
-    "content_scripts": [
-        {
-            "matches": ["https://extensionpay.com/*", "<all_urls>"],
-            "js": ["content.js"],
-            "run_at": "document_start"
-        }
-    ],
-    "externally_connectable": {
-        "matches": ["https://quickfireai-dbb40-default-rtdb.firebaseio.com/*"]
     }
 }
