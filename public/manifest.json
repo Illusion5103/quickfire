@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "QuickfireAI",
+    "name": "QuickfireAI: Communication Copilot",
     "short_name": "QuickfireAI",
-    "version": "0.0.0.4",
+    "version": "0.0.0.5",
     "author": "netdrifter",
-    "description": "A copilot for responding. Use AI to respond to messages faster and more efficiently.",
+    "description": "A copilot for communication. Generate replies and initial messages to communicate professionally with much higher efficiency.",
     "action": {
         "default_popup": "index.html",
         "default_title": "QuickfireAI"
@@ -17,8 +17,8 @@
         "type": "module"
     },
     "icons": {
-        "16": "logo192.png",
-        "48": "logo192.png",
-        "128": "logo192.png"
+        "16": "quickfirelogo.png",
+        "48": "quickfirelogo.png",
+        "128": "quickfirelogo.png"
     }
 }

@@ -13,6 +13,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import { initializeApp } from "firebase/app";
 import { getDatabase, update, ref, onValue  } from "firebase/database";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import QuickfireLogo from './quickfirelogo.png';
 
 // openai api init
 const configuration = new Configuration({
@@ -207,6 +208,7 @@ export default function App() {
 
       <div>
         <div className={styles.headerOver}>
+          {/* <img src={QuickfireLogo} alt="Quickfire Logo" width={23} height={23} /> */}
         <div className={styles.headerBack}>
         </div>
         <div className={styles.header}>
@@ -328,7 +330,7 @@ export default function App() {
           <h2 className={styles.infoTextHead}>Support</h2>
           <h2 className={styles.infoText}>If you need help, have questions, or have a suggestion for an update, you can contact the developer at support@quickfireai.com <br/> <br/> Thank you for using QuickfireAI!</h2>
           <br/>
-          <text>v0.0.0.4</text>
+          <text>v0.0.0.5</text>
         </div>
         </div>
     );
@@ -354,7 +356,7 @@ export default function App() {
           <button className={styles.buttonSettings} onClick={() => extpay.openPaymentPage()}><div className={styles.sameLevel}>Subscription Settings <SettingsIcon className={styles.icons}/></div></button>
           <br/>
           <br/>
-          <text>v0.0.0.4</text>
+          <text>v0.0.0.5</text>
         </div>
       </div>
     )
